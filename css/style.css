@@ -1,0 +1,130 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(99, 99, 99);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+h1{
+    color: rgb(238, 238, 238);
+    text-align: center;
+    padding-left: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 3%;
+    font-size: 1.8em;
+}
+header{
+    width: 100%;
+    background-color: rgb(99, 99, 99);
+}
+
+ul {
+    list-style-type: none;
+     margin: 0;
+     padding: 0;
+    overflow: hidden;
+    background-color: rgb(4, 118, 217);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
+li{
+    float: left;
+    border-right: 1px solid rgb(238, 238, 238);
+}
+  
+li a{
+    display: block;
+    color: aliceblue;
+    background-color: rgb(4, 118, 217);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+a:link{
+    color: rgb(238, 238, 238);
+}
+li a:hover:not(.active){
+    background-color: #0442BF;
+}
+
+
+.ativo{
+    background-color: gray;
+}
+  
+.logo{
+    text-align: center;
+    color: rgb(238, 238, 238);
+    font-size: 1.5em;
+}
+
+nav{
+    text-align: center;
+    color: rgb(238, 238, 238);
+    font-size: 1.8em;
+}
+
+.banner{
+    width: 100%;
+}
+
+.container{
+    width: 80%;
+    background-color: #1a1b25;
+    margin: auto;
+    border-radius: 5%;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+footer{
+    background-color: #1a1b25;
+    color: rgb(238, 238, 238);
+    width: 100%;
+}
+div{
+    color: rgb(238, 238, 238);
+}
+h2{
+    text-align: center;
+    padding-left: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 3%;
+    font-size: 1.6em;
+}
+h3{
+    padding-left: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 3%;
+    font-size: 1.4em;
+}
+p{
+    color: rgb(238, 238, 238);
+    padding-left: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 3%;
+    line-height: 1.4em;
+    font-size: 1em;
+}
+
+
+.imagens{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+.linha{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+  }
+.col-6 {
+    width: 50%;
+}
