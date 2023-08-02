@@ -1,1 +1,1 @@
-# https://https://github.com/dantasaline/Cup-Head
+# https://dantasaline.github.com/Cup-Head
