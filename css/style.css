@@ -30,6 +30,15 @@ ul:not(.calice) {
     width: 100%;
 }
 
+a{
+    color: #63A0BF;
+}
+
+a:hover{
+    color: #46819e;
+    text-decoration: underline;
+}
+
 li a{
     display: block;
     color: aliceblue;
@@ -66,7 +75,7 @@ nav{
 }
 
 .banner{
-    width: 98%;
+    width: 97%;
     border-style: solid;
     border-color: #FFD011;
     border-width: 1em;
@@ -146,4 +155,15 @@ section{
 }
 .hab{
     padding-bottom: 0.7em;
+}
+
+@media (max-width:900px) {
+
+    .linha {
+        flex-direction: column;
+    }
+
+    .col-6 {
+        width: 100%;
+    }
 }
