@@ -19,17 +19,6 @@ header{
     background-color: #DF4418;
 }
 
-ul:not(.calice) {
-    list-style-type: none;
-     margin: 0;
-     padding: 0;
-    overflow: hidden;
-    background-color: #63A0BF;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
 a{
     color: #63A0BF;
 }
@@ -37,28 +26,13 @@ a{
 a:hover{
     text-decoration: underline;
 }
-
-li a{
-    display: block;
-    color: aliceblue;
-    background-color: #63A0BF;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    float: left;
-    border-right: 1px solid rgb(238, 238, 238);
-}
   
 a:link{
     color: rgb(238, 238, 238);
 }
-li a:hover:not(.ativo){
-    background-color: #46819e;
-}
-
 
 .ativo{
-    background-color: #DF4418;
+    background-color: #FFD011;
 }
   
 .logo{
@@ -74,9 +48,8 @@ nav{
 }
 
 .banner{
-    width: 98%;
+    width: 97%;
     border-style: solid;
-    padding-top: 2em;
     border-color: #FFD011;
     border-width: 1em;
     border-radius: 3em;
@@ -94,6 +67,12 @@ footer{
     background-color: #DF4418;
     color: rgb(238, 238, 238);
     width: 100%;
+    text-align: center;
+}
+
+.social{
+    width: 10%;
+    padding-left: 2%;
 }
 
 h2{
@@ -161,7 +140,7 @@ section{
     padding-bottom: 0.7em;
 }
 
-@media (max-width:900px) {
+@media (max-width:600px) {
 
     .linha {
         flex-direction: column;
@@ -170,4 +149,8 @@ section{
     .col-6 {
         width: 100%;
     }
+}
+
+.logotipo{
+    width: 40%;
 }
